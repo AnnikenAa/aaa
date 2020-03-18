@@ -1,0 +1,316 @@
+*{
+    box-sizing: border-box;
+}
+
+html h2{
+    font-size: 100px;
+}
+
+/*både for header og footer*/
+
+
+.menu ul {
+    list-style-type: none;
+    background-color: #ECECEC;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    border-radius: 0px;
+    font-family:'Roboto Condensed';
+}
+
+.menu ul li{
+    float:left;
+}
+
+
+.menu ul li a{
+    color: black;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px 15px;
+}
+
+.menu ul li a:hover{
+    opacity: 50%;
+    font-family:'Roboto Condensed'; 
+    border-radius: 0px;
+}
+
+.menu ul li a:active{
+    font-size: 16px;
+    opacity: 100%;
+    font-family:'Roboto Condensed'; 
+    border-radius: 0px;
+    color: white;
+}
+
+
+
+#hjem, h2{
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Anton';
+    color:#94C6CE;
+    font-size: 80px;
+
+}
+
+#ommeg, #utdanning, #arbeidserfaring, #frivilligarbeid, #skills, #interesser{
+    background-color: white;
+    width: 100%;
+    display: inline-block;
+}
+
+/*bilder*/ 
+
+#ommeg img{
+    width: 35%;
+    height: auto;
+    float: left;
+    padding-left: 150px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+#arbeidserfaring img, #skills img{
+    width: 50%;
+    height: auto;
+    float: left;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 7.5px;
+}
+
+#utdanning img{
+    width: 50%;
+    height: auto;
+    float: right;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 7.5px;
+    padding-top: 50px;
+}
+
+#carouselExampleSlidesOnly{
+     width: 50%;
+    height: auto;
+    float: right;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 7.5px;
+}
+
+#carouselExampleCaptions{
+     width: 50%;
+    height: auto;
+    float: right;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 7.5px;
+}
+
+
+/*tekst*/
+#ommeg div, #skills div{
+    width: 40%;
+    float: right;
+    padding-right: 120px;
+    padding-top: 130px;
+    text-align: justify;
+    list-style: none;
+}
+
+#arbeidserfaring div{
+    width: 40%;
+    float: right;
+    padding-top: 90px;
+    text-align: justify;
+    list-style: none;
+}
+
+#skills div{
+    width: 40%;
+    float: right;
+    padding-right: 50px;
+    padding-top: 60px;
+    text-align: justify;
+    list-style: none;
+}
+
+
+#utdanning div{
+    width: 40%;
+    float: left;
+    padding-left: 120px;
+    padding-top: 120px;
+    text-align: justify;
+    list-style: none;
+}
+
+#frivilligarbeid{
+    width: 40%;
+    float: left;
+    padding-left: 120px;
+    padding-top: 30px;
+    text-align: justify;
+    list-style: none;
+}
+
+#interesser{
+    width: 40%;
+    float: left;
+    padding-left: 120px;
+    padding-top: 90px;
+    text-align: justify;
+    list-style: none;
+}
+
+#spor{
+    width: 40%;
+    float: right;
+    padding-top: 50px;
+    text-align: justify;
+    list-style: none;
+}
+
+#sporreskjema img{
+    width: 50%;
+    height: auto;
+    float: left;
+    padding-bottom: 0px;
+    padding-right: 7.5px;
+    padding-left: 15px;
+    padding-top: 140px;
+}
+
+
+
+h3{
+    font-family: 'Roboto Condensed';
+    font-variant: small-caps;
+}
+
+p{
+    font-family: 'Roboto Condensed';
+}
+
+li{
+    font-family: 'Roboto Condensed';
+    
+}
+
+
+
+
+
+button{
+    background-color:white;
+    text-decoration: none;
+    font-family: 'Anton';
+    padding: 12px, 28px;
+    border-radius: 8px;
+    border: 2px solid grey;
+    color: #ECECEC;
+    transition-duration: 0.4s;
+   
+    width: 20%;
+}
+
+button:hover{
+    background-color:#ECECEC;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2), 0 10px 20px 0 rgba(0,0,0,0.10);
+}
+
+
+form{
+    font-family: 'Roboto Condensed';
+}
+
+#bilde img{
+    padding-top:0px;
+    width: 50%;
+    height: auto;
+    float: left;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 7.5px;
+}
+
+
+
+.footer ul {
+    list-style-type: none;
+    background-color: #ECECEC;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    border-radius: 0px;
+    font-family:'Roboto Condensed';
+}
+
+.footer ul li{
+    float:left;
+}
+
+
+.footer ul li a{
+    color: black;
+    display: block;
+    text-decoration: none;
+    padding: 10px 10px;
+    
+}
+
+#linkedin a:hover{
+    opacity: 50%;
+}
+
+#linkedin a:active{
+    opacity: 50%;
+}
+
+
+#linkedin img{
+    width: 10%;
+    height: auto;
+}
+
+#text{
+    padding-top: 14px;
+    padding-right: 227px;
+    padding-left: 45px;
+}
+
+#cv a:hover{
+    opacity: 50%;
+}
+
+#cv a:active{
+    opacity: 50%;
+    color: white;
+}
+
+#cv{
+    padding-top: 4px;
+}
+
+
+/*fra submit.html*/
+#submit{
+    padding-top: 50px;
+    text-align: center;
+}
+
+
+
+
+
+@media screen and (max-width:800px){
+    .main, .right{
+        width: 100%;
+    }
+}/*for å få responsive design*/
+
+
